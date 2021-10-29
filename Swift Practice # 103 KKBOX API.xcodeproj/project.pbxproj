@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		2DCCEF3927295E92005D1606 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCCEF3827295E92005D1606 /* AppDelegate.swift */; };
 		2DCCEF3B27295E92005D1606 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCCEF3A27295E92005D1606 /* SceneDelegate.swift */; };
-		2DCCEF3D27295E92005D1606 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCCEF3C27295E92005D1606 /* ViewController.swift */; };
 		2DCCEF4027295E92005D1606 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DCCEF3E27295E92005D1606 /* Main.storyboard */; };
 		2DCCEF4227295E92005D1606 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DCCEF4127295E92005D1606 /* Assets.xcassets */; };
 		2DCCEF4527295E92005D1606 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DCCEF4327295E92005D1606 /* LaunchScreen.storyboard */; };
+		2DCCEF4D272979F0005D1606 /* KKBOXTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCCEF4C272979F0005D1606 /* KKBOXTableViewController.swift */; };
+		2DCCEF4F27299F95005D1606 /* KKBOX JSON .swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCCEF4E27299F95005D1606 /* KKBOX JSON .swift */; };
+		2DCCEF51272A5D9F005D1606 /* SingerTrackTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCCEF50272A5D9F005D1606 /* SingerTrackTableViewCell.swift */; };
+		2DCCEF53272C19BD005D1606 /* SongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCCEF52272C19BD005D1606 /* SongViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2DCCEF3527295E92005D1606 /* Swift Practice # 103 KKBOX API.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Practice # 103 KKBOX API.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DCCEF3827295E92005D1606 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DCCEF3A27295E92005D1606 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2DCCEF3C27295E92005D1606 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2DCCEF3F27295E92005D1606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2DCCEF4127295E92005D1606 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DCCEF4427295E92005D1606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DCCEF4627295E92005D1606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DCCEF4C272979F0005D1606 /* KKBOXTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KKBOXTableViewController.swift; sourceTree = "<group>"; };
+		2DCCEF4E27299F95005D1606 /* KKBOX JSON .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KKBOX JSON .swift"; sourceTree = "<group>"; };
+		2DCCEF50272A5D9F005D1606 /* SingerTrackTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingerTrackTableViewCell.swift; sourceTree = "<group>"; };
+		2DCCEF52272C19BD005D1606 /* SongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,13 @@
 		2DCCEF3727295E92005D1606 /* Swift Practice # 103 KKBOX API */ = {
 			isa = PBXGroup;
 			children = (
+				2DCCEF4E27299F95005D1606 /* KKBOX JSON .swift */,
 				2DCCEF3827295E92005D1606 /* AppDelegate.swift */,
 				2DCCEF3A27295E92005D1606 /* SceneDelegate.swift */,
-				2DCCEF3C27295E92005D1606 /* ViewController.swift */,
 				2DCCEF3E27295E92005D1606 /* Main.storyboard */,
+				2DCCEF50272A5D9F005D1606 /* SingerTrackTableViewCell.swift */,
+				2DCCEF4C272979F0005D1606 /* KKBOXTableViewController.swift */,
+				2DCCEF52272C19BD005D1606 /* SongViewController.swift */,
 				2DCCEF4127295E92005D1606 /* Assets.xcassets */,
 				2DCCEF4327295E92005D1606 /* LaunchScreen.storyboard */,
 				2DCCEF4627295E92005D1606 /* Info.plist */,
@@ -137,9 +146,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCCEF3D27295E92005D1606 /* ViewController.swift in Sources */,
 				2DCCEF3927295E92005D1606 /* AppDelegate.swift in Sources */,
+				2DCCEF4F27299F95005D1606 /* KKBOX JSON .swift in Sources */,
+				2DCCEF4D272979F0005D1606 /* KKBOXTableViewController.swift in Sources */,
+				2DCCEF53272C19BD005D1606 /* SongViewController.swift in Sources */,
 				2DCCEF3B27295E92005D1606 /* SceneDelegate.swift in Sources */,
+				2DCCEF51272A5D9F005D1606 /* SingerTrackTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
